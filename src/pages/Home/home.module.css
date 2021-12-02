@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin: 50px 100px;
+  grid-row-gap: 50px;
+}
+.card {
+  width: 320px;
+  margin: 0 70px;
+}
+.headerImage {
+  width: 320px;
+  height: 200px;
+}
+.midContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px 0px 15px;
+}
+.content {
+  height: 100px;
+  overflow: auto;
+}
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardIcon:hover {
+  cursor: pointer;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+.linkIcon {
+  color: black;
+}
+.deleteBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
